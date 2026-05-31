@@ -63,3 +63,11 @@
     grid-template-columns: repeat(2,1fr);
     gap:15px ;
 }
+@media(max-width:600px){
+    .front{
+        flex-direction:colum;
+        text-align:center;}
+    #image{
+        width:100%;
+        max-width:200px;}
+}
